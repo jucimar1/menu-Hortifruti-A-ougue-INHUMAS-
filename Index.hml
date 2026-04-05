@@ -1,1 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hortifruti & Açougue | Inhumas-GO</title>
+    <!-- Conecta com o arquivo de estilo -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Fonte moderna do Google -->
+    <link href="https://googleapis.com" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Hortifruti <span>&</span> Açougue</h1>
+            <p>Ofertas de hoje em Inhumas</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section>
+            <h2>🍎 Hortifruti Fresquinho</h2>
+            <div class="grid" id="horti-lista">
+                <!-- O JS pode preencher aqui depois -->
+                <div class="card">
+                    <img src="https://unsplash.com" alt="Maçã">
+                    <div class="info">
+                        <span class="nome">Maçã Gala</span>
+                        <span class="preco">R$ 7,90 kg</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>🥩 Açougue Selecionado</h2>
+            <div class="grid">
+                <div class="card">
+                    <img src="https://unsplash.com" alt="Carne">
+                    <div class="info">
+                        <span class="nome">Picanha Premium</span>
+                        <span class="preco">R$ 64,90 kg</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <a href="https://wa.me" class="btn-whatsapp" target="_blank">
+            Pedir pelo WhatsApp
+        </a>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Mercado Inhumas - Desenvolvido por [Seu Nome]</p>
+    </footer>
+
+</body>
+</html>
 
